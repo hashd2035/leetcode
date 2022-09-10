@@ -15,9 +15,3 @@ class Solution:
             else:
                 lo = m + 1
         return lo - 1
-
-        #     if m * m <= x:
-        #         lo = m + 1
-        #     else:
-        #         hi = m
-        # return lo - 1            
