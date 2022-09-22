@@ -129,7 +129,7 @@ https://buildbinarytree.com/ Tree Visualization
 #### Binary Indexed Tree (Aka. BIT, Fenwick Tree)
 
 [Introduction to Fenwick Tree/Binary Indexed Tree(BIT)](https://leetcode.com/discuss/general-discussion/1093346/introduction-to-fenwick-treebinary-indexed-treebit)
-https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/ 
+[hackerearth - Binary Indexed Tree](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
 
 [LC Binary Indexed Tree Problems](https://leetcode.com/list/5vezxjhm/)
 
