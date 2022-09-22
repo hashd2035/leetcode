@@ -2,14 +2,10 @@
 Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
 
 ## Problem Collections
-[neetcode150](https://neetcode.io/practice)
-[leetcode170](https://leetcode.com/problem-list/leetcode-curated-algo-170/) - Premium Collections
+[neetcode150](https://neetcode.io/practice) | [leetcode170](https://leetcode.com/problem-list/leetcode-curated-algo-170/) - Premium Collections
 
 ## Guides
-[Tips and Patterns while approaching a DSA Problem in Interviews](https://leetcode.com/discuss/general-discussion/861135/Tips-and-Patterns-while-approaching-a-DSA-Problem-in-Interviews)
-[Edge cases to consider during problem solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving)
-
-[My notes for the night before interview.](https://leetcode.com/discuss/career/217868/My-notes-for-the-night-before-interview)
+[Tips and Patterns while approaching a DSA Problem in Interviews](https://leetcode.com/discuss/general-discussion/861135/Tips-and-Patterns-while-approaching-a-DSA-Problem-in-Interviews) | [Edge cases to consider during problem solving](https://leetcode.com/discuss/general-discussion/988504/Edge-cases-to-consider-during-problem-solving) | [My notes for the night before interview.](https://leetcode.com/discuss/career/217868/My-notes-for-the-night-before-interview)
 
 ## Patterns
 [Leetcode common code Templates](https://cheatsheet.dennyzhang.com/cheatsheet-leetcode-a4)
@@ -21,8 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ### Array
 
 #### Two Pointers 
-https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-1
-https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-2
+https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-1 | https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-2
 
 - Old, New States
 - Fast, Slow Pointers
@@ -43,15 +38,10 @@ https://www.pluralsight.com/guides/algorithm-templates:-two-pointers-part-3
 - Additional Patterns - [Summary of Sliding Window Patterns for Subarray / Substring](https://leetcode.com/discuss/general-discussion/1122776/Summary-of-Sliding-Window-Patterns-for-Subarray-Substring)
 
 #### Binary Search
-[Python - Implement Bisect Algorithms](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/702162/python-lets-implement-pythons-bisect-algorithm)
-
-[Python Clear explanation Powerful Ultimate Binary Search Template.- Solved many problems](https://leetcode.com/problems/split-array-largest-sum/discuss/769701/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems)
-
-[An approach to writing bug-free Binary Search code](https://leetcode.com/discuss/general-discussion/1089533/An-approach-to-writing-bug-free-Binary-Search-code)
+[Python - Implement Bisect Algorithms](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/discuss/702162/python-lets-implement-pythons-bisect-algorithm) | [Python Clear explanation Powerful Ultimate Binary Search Template.- Solved many problems](https://leetcode.com/problems/split-array-largest-sum/discuss/769701/Python-Clear-explanation-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems) | [An approach to writing bug-free Binary Search code](https://leetcode.com/discuss/general-discussion/1089533/An-approach-to-writing-bug-free-Binary-Search-code)
 
 #### Matrix
-https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matrix.py
-https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matrix_examples.py
+https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matrix.py | https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matrix_examples.py
 
 [All about Matrix Chain Multiplication || EASY](https://leetcode.com/discuss/general-discussion/1278305/All-about-Matrix-Chain-Multiplication-oror-EASY)
 
@@ -72,7 +62,8 @@ https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matr
 #### Cyclic Sort
 
 #### Heap
-[Master HEAP: Understanding 4 patterns where HEAP data structure is used](https://leetcode.com/discuss/general-discussion/1127238/Master-HEAP%3A-Understanding-4-patterns-where-HEAP-data-structure-is-used)
+[Master HEAP: Understanding 4 patterns where HEAP data structure is used](https://leetcode.com/discuss/general-discussion/1127238/Master-HEAP%3A-Understanding-4-patterns-where-HEAP-data-structure-is-used) 
+
 [Top K problems - Sort, Heap, and QuickSelect](https://leetcode.com/discuss/general-discussion/1088565/Top-K-problems-Sort-Heap-and-QuickSelect)
 
 
@@ -83,8 +74,7 @@ https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matr
 [Introduction to Trie](https://leetcode.com/discuss/general-discussion/1066206/Introduction-to-Trie)
 
 ##### Suffix Tree / Suffix Array - Prob not needed for interview
-[hackerearth - Suffix Tree](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/suffix-trees/tutorial/)
-[hackerearth - Suffix Array](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/suffix-arrays/tutorial/)
+[hackerearth - Suffix Tree](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/suffix-trees/tutorial/) | [hackerearth - Suffix Array](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/suffix-arrays/tutorial/)
 
 ### BFS/DFS/Backtracking/Tree/Graph
 
@@ -97,8 +87,7 @@ https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matr
 
 #### BFS - Subsets
 #### Tree
-[Binary Trees study guide](https://leetcode.com/discuss/study-guide/1212004/Binary-Trees-study-guide)
-[Views and Traversal of binary tree | Important topics | Must Read : )](https://leetcode.com/discuss/general-discussion/1094690/Views-and-Traversal-of-binary-tree-or-Important-topics-or-Must-Read-%3A-)
+[Binary Trees study guide](https://leetcode.com/discuss/study-guide/1212004/Binary-Trees-study-guide) | [Views and Traversal of binary tree | Important topics | Must Read : )](https://leetcode.com/discuss/general-discussion/1094690/Views-and-Traversal-of-binary-tree-or-Important-topics-or-Must-Read-%3A-)
 
 #### Tree - DFS
 #### Tree - BFS
@@ -107,11 +96,7 @@ https://github.com/hashd2035/Algorithm_Templates/blob/master/data_structure/matr
 #### Graph
 https://buildbinarytree.com/ Tree Visualization
 
-[Important Graph Algorithm Notes for Interview](https://leetcode.com/discuss/general-discussion/1122034/Important-Graph-Algorithm-Notes-for-Interview)
-[Graph Algorithms One Place | Dijkstra | Bellman Ford | Floyd Warshall | Prims | Kruskals | DSU](https://leetcode.com/discuss/general-discussion/969327/Graph-Algorithms-One-Place-or-Dijkstra-or-Bellman-Ford-or-Floyd-Warshall-or-Prims-or-Kruskals-or-DSU)
-
-[Graph Traversals and Number of Connected Components for Beginners.](https://leetcode.com/discuss/general-discussion/1079048/Graph-Traversals-and-Number-of-Connected-Components-for-Beginners)
-[Graph For Beginners | Problems | Pattern | Sample Solutions](https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+[Important Graph Algorithm Notes for Interview](https://leetcode.com/discuss/general-discussion/1122034/Important-Graph-Algorithm-Notes-for-Interview) | [Graph Algorithms One Place | Dijkstra | Bellman Ford | Floyd Warshall | Prims | Kruskals | DSU](https://leetcode.com/discuss/general-discussion/969327/Graph-Algorithms-One-Place-or-Dijkstra-or-Bellman-Ford-or-Floyd-Warshall-or-Prims-or-Kruskals-or-DSU) | [Graph Traversals and Number of Connected Components for Beginners.](https://leetcode.com/discuss/general-discussion/1079048/Graph-Traversals-and-Number-of-Connected-Components-for-Beginners) | [Graph For Beginners | Problems | Pattern | Sample Solutions](https://leetcode.com/discuss/study-guide/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
 
 #### Graph - DFS
 #### Graph - BFS
@@ -131,34 +116,24 @@ https://buildbinarytree.com/ Tree Visualization
 - Fast & Slow Pointers - [Intro to Floyd’s Cycle Detection Algorithm](https://leetcode.com/discuss/general-discussion/1116359/Intro-to-Floyd's-Cycle-Detection-Algorithm)
 
 ### DP
-[Dynamic Programming Summary](https://leetcode.com/discuss/general-discussion/592146/Dynamic-Programming-Summary)
-[The ART of Dynamic Programming - An Intuitive Approach: From Apprentice to Master](https://leetcode.com/discuss/general-discussion/712010/The-ART-of-Dynamic-Programming-An-Intuitive-Approach%3A-From-Apprentice-to-Master)
-[Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
-[Dynamic programming on subsets with examples, explained](https://leetcode.com/discuss/general-discussion/1125779/Dynamic-programming-on-subsets-with-examples-explained)
-[Topic 3: Dynamic Programming Patterns I](https://leetcode.com/discuss/general-discussion/1069177/Topic-3%3A-Dynamic-Programming-Patterns-I)
-[Must do Dynamic programming Problems Category wise](https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Catefory-wise)
+[Dynamic Programming Summary](https://leetcode.com/discuss/general-discussion/592146/Dynamic-Programming-Summary) | [The ART of Dynamic Programming - An Intuitive Approach: From Apprentice to Master](https://leetcode.com/discuss/general-discussion/712010/The-ART-of-Dynamic-Programming-An-Intuitive-Approach%3A-From-Apprentice-to-Master) | [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns) | [Dynamic programming on subsets with examples, explained](https://leetcode.com/discuss/general-discussion/1125779/Dynamic-programming-on-subsets-with-examples-explained) | [Topic 3: Dynamic Programming Patterns I](https://leetcode.com/discuss/general-discussion/1069177/Topic-3%3A-Dynamic-Programming-Patterns-I) |[Must do Dynamic programming Problems Category wise](https://leetcode.com/discuss/general-discussion/1050391/Must-do-Dynamic-programming-Problems-Catefory-wise)
 
 ### Greedy
-[ABCs of Greedy](https://leetcode.com/discuss/general-discussion/1061059/ABCs-of-Greedy)
-[General Pattern for greedy approach for Interval based problems](https://leetcode.com/discuss/general-discussion/794725/General-Pattern-for-greedy-approach-for-Interval-based-problems)
+[ABCs of Greedy](https://leetcode.com/discuss/general-discussion/1061059/ABCs-of-Greedy) | [General Pattern for greedy approach for Interval based problems](https://leetcode.com/discuss/general-discussion/794725/General-Pattern-for-greedy-approach-for-Interval-based-problems)
 
 ### Bitwise
-[Understanding how numbers are stored in the computer using only 0 and 1.](https://leetcode.com/discuss/general-discussion/1049269/Understanding-how-numbers-are-stored-in-the-computer-using-only-0-and-1.)
-[All about Bitwise Operations: Beginner-Intermediate](https://leetcode.com/discuss/general-discussion/1073221/All-about-Bitwise-Operations-Beginner-Intermediate)
-[Bit Manipulation - All that you must know!](https://leetcode.com/discuss/general-discussion/1080312/Bit-Manipulation-All-that-you-must-know!)
-[A Summary: how to use bit manipulation to solve things clearly and efficiently](https://leetcode.com/discuss/general-discussion/136585/A-Summary%3A-how-to-use-bit-manipulation-to-solve-things-clearly-and-efficiently)
+[Understanding how numbers are stored in the computer using only 0 and 1.](https://leetcode.com/discuss/general-discussion/1049269/Understanding-how-numbers-are-stored-in-the-computer-using-only-0-and-1.) | [All about Bitwise Operations: Beginner-Intermediate](https://leetcode.com/discuss/general-discussion/1073221/All-about-Bitwise-Operations-Beginner-Intermediate) | [Bit Manipulation - All that you must know!](https://leetcode.com/discuss/general-discussion/1080312/Bit-Manipulation-All-that-you-must-know!) | [A Summary: how to use bit manipulation to solve things clearly and efficiently](https://leetcode.com/discuss/general-discussion/136585/A-Summary%3A-how-to-use-bit-manipulation-to-solve-things-clearly-and-efficiently)
 
 ### Range
 
 #### Binary Indexed Tree (Aka. BIT, Fenwick Tree)
 
 [Introduction to Fenwick Tree/Binary Indexed Tree(BIT)](https://leetcode.com/discuss/general-discussion/1093346/introduction-to-fenwick-treebinary-indexed-treebit)
-https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/
+https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/ 
 
 [LC Binary Indexed Tree Problems](https://leetcode.com/list/5vezxjhm/)
 
 #### Segment Tree
-[Introduction to Segment Tree - A Complete Guide](https://leetcode.com/discuss/general-discussion/1128655/Introduction-to-Segment-Tree-A-Complete-Guide)
-[Recursive Approach to Segment Trees](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
+[Introduction to Segment Tree - A Complete Guide](https://leetcode.com/discuss/general-discussion/1128655/Introduction-to-Segment-Tree-A-Complete-Guide) | [Recursive Approach to Segment Trees](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
 
 [LC Segment Tree Problems](https://leetcode.com/tag/segment-tree/)
