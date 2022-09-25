@@ -1,7 +1,10 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int:  
+    def rob(self, nums: List[int]) -> int:
+        """
+        money=[1,2,3,1]
+  
+        """
         last, now = 0, 0
-        for i in nums:
-            last, now = now, max(last + i, now)
-        return now
-        
+        for money in nums:
+            last, now = now, max(last+money, now)
+        return now 
