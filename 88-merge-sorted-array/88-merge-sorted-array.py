@@ -3,23 +3,24 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        i, j = 0, 0
-        copy = []
-        while i < m and j < n:
-            if nums1[i] <= nums2[j]:
-                copy.append(nums1[i])
-                i += 1                
-            else:
-                copy.append(nums2[j])
-                j += 1
-
-        print("1", copy)
-        copy.extend(nums1[i:m])        
-        print("2", copy)
-        copy.extend(nums2[j:n])        
-        print("3", copy)
-
-        i, k = m, 0
+        i, j, k = m-1, n-1, len(nums1)-1
         
-        for i in range(len(nums1)):
-            nums1[i] = copy[i]
+        while i >= 0 and j >= 0:
+            if nums1[i] > nums2[j]:
+                nums1[k] = nums1[i]
+                k -= 1
+                i -= 1
+            else:
+                nums1[k] = nums2[j]
+                k -= 1
+                j -= 1
+                
+        while j >= 0:
+            nums1[k] = nums2[j]
+            k -= 1
+            j -= 1
+    
+        while i >= 0:
+            nums1[k] = nums1[i]
+            k -= 1
+            i -= 1
