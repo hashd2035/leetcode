@@ -1,4 +1,13 @@
 class Solution:
+    
+    """
+    1. if we can find the value that is largest, but, smaller, then pick this.
+        * How do we know the value is smaller? 
+            - if `140 / Roman == 1`, then, Roman is smaller than number.
+        * How do we know the largest?
+            * if we can go through Romans from largest to smaller and the first smaller is largest smaller
+    2. Once, we find the largest smaller, we can subtract `largest, smaller` from num, then, repeat
+    """    
     def intToRoman(self, num: int) -> str:
         """
         num needs to be divisible by the largest available
@@ -12,11 +21,12 @@ class Solution:
                  ("I", 1)] 
         
         ans = []
-        while num > 0:
-            for roman, digit in Romans:
-                d, m = divmod(num, digit)
-                if d >= 1:
-                    num = num - digit
-                    ans.append(roman)
-                    break
-        return ''.join(ans)
+        for roman, digit in Romans:
+            # We don't want to continue looping if we're done.
+            if num == 0: 
+                break
+            count, num = divmod(num, digit)
+
+            # Append "count" copies of "symbol" to roman_digits.
+            ans.append(roman * count)
+        return "".join(ans)
