@@ -1,4 +1,21 @@
 class Solution:
+    def copyAndAdd(self, nums):
+        subsets = [[]]
+        s, e, prev = 0, 0, None
+        for n in sorted(nums):
+            temp = []
+            if not prev or prev != n:
+                s = 0
+            e = len(subsets)
+    
+            for i in range(s, e):
+                temp.append(subsets[i] + [n])
+                
+            prev, s = n, len(subsets)
+            subsets.extend(temp)
+        return subsets        
+    
+    
     def cascade(self, nums: List[int]) -> List[List[int]]:
         subsets = [[]] 
         s, e, prev = 0, 0, None
@@ -31,4 +48,4 @@ class Solution:
                      
                      
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
-        return self.incrementalLength(nums)
+        return self.copyAndAdd(nums)
