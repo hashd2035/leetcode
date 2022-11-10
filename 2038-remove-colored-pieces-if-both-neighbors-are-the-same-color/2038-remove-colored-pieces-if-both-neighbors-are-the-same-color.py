@@ -1,20 +1,20 @@
 class Solution:
     def winnerOfGame(self, colors: str) -> bool:
         """
-        Alice (True)
-            - remove A, if both adj are A
-        Bod (False)
-            - remove B, if both adj are B
-        Alice/Bob - cannot remove from edges
-        
-        if a player cannot move, he/she loses
+        AAA, A
+        B, BB 
         """
+        aliceWins = False
+        As = colors.split('B')
+        Bs = colors.split('A')
         
-        # This returns all the As which occur in between the Bs
-        aliceScore = sum(max(len(As) - 2, 0) for As in colors.split('B'))
-        
-        # This returns all the Bs which occur in between the As
-        bobScore = sum(max(len(Bs) - 2, 0) for Bs in colors.split('A'))
-        
-        return aliceScore > bobScore
+        aliceCount, bobCount = 0, 0
+        for a in As:
+            if len(a) >= 3:
+                aliceCount += len(a) - 2
             
+        for b in Bs:
+            if len(b) >= 3:
+                bobCount += len(b) - 2
+                    
+        return aliceCount > bobCount
