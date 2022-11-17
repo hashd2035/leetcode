@@ -60,3 +60,46 @@ Easy
 """
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+
+
+"""
+Medium
+287. Find the Duplicate Number
+"""
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+
+"""
+Medium
+146. LRU Cache
+"""
+class LRUCache:
+
+    def __init__(self, capacity: int):
+        
+
+    def get(self, key: int) -> int:
+        
+
+    def put(self, key: int, value: int) -> None:
+        
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
+
+"""
+Hard
+23-merge-k-sorted-lists
+"""
+class Solution:
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+
+"""
+Hard
+25. Reverse Nodes in k-Group
+"""
+class Solution:
+    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+
