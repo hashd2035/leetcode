@@ -38,33 +38,7 @@ class Solution:
     - merge
     """
     def reorderList(self, head: Optional[ListNode]) -> None:
-        # find middle
-        slow, fast = head, head.next
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next 
-
-        # reverse
-        pre, cur = None, slow
-        while cur:
-            temp = cur.next
-            cur.next = prev
-            prev, cur = cur, temp 
-
-        # reorder
-        L1, L2 = head, prev 
-        cur, toggle = head, True 
-        while L1 and L2:
-            if toggle:
-                L1 = L1.next 
-                cur.next = L2 
-            else:
-                L2 = L2.next
-                cur.next = L1 
-            cur = cur.next 
-            toggle = not toggle
         
-        return head 
 
 
 """
@@ -95,7 +69,41 @@ Medium
 """
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+        """
+        1->2->3->4->5, n=2
+                2nd 1st
+              s        f
+        
+        - Need n+1 th node
+        - node = node.next.next 
+        """
+        slow, fast = head, head 
+        for _ in range(n+1):
+            if not fast:
+                return head 
+            fast = fast.next 
 
+        while fast:
+            slow = slow.next 
+            fast = fast.next 
+
+        slow = slow.next.next 
+        return head
+
+
+
+"""
+Easy
+0141-linked-list-cycle 
+"""
+class Solution:
+    def hasCycle(self, head: Optional[ListNode]) -> bool:
+        slow, fast = head, head.next 
+        while fast and fast.next:
+            if slow == fast:
+                return True
+            slow, fast = slow.next, fast.next.next
+        return False 
 
 """
 Medium Walmart
@@ -119,12 +127,6 @@ class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
 
 
-"""
-Easy
-0141-linked-list-cycle 
-"""
-class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
 
 
 """

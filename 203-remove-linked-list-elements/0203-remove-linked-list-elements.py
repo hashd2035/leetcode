@@ -12,6 +12,7 @@ class Solution:
         while cur:
             if cur.val == val:
                 prev.next = cur.next 
+                # note we don't need to update prev. Watch neetcode
             else:
                 prev = cur  
             cur = cur.next
