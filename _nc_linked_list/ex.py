@@ -10,21 +10,61 @@ Easy
 """
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:        
+        prev, cur = None, head 
+        while cur:
+            # reverse
+            temp = cur.next 
+            cur.next = prev
+
+            # shift
+            prev, cur = cur, temp 
+
+        return prev
 
 """
 Easy
-0206-reverse-linked-list
+21-merge-two-sorted-lists
 """
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode()
 
+        if list1.value <= list2.value:
+            dummy.next = list1 
+            list1 = list1.next 
+        else:
+            dummy.next = list2
+            list2 = list2.next 
+
+        tail = dummy.next 
+
+        while list1 and list2:
+            if list1.val <= list2.val:
+                tail.next = list1
+                list1 = list1.next 
+            else:
+                tail.next = list2
+                list2 = list2.next
+            tail = tail.next 
+
+        if list1: tail.next = list1
+        if list2: tail.next = list2
+
+        return dummy.next 
+        
 """
 Medium
 0143-reorder-list
+https://leetcode.com/problems/reorder-list/
+
+L0 → L1 → … → Ln - 1 → Ln
+Reorder the list to be on the following form:
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
+
 """
 class Solution:
     def reorderList(self, head: Optional[ListNode]) -> None:
-
+        
 """
 Medium
 0019-remove-nth-node-from-end-of-list
