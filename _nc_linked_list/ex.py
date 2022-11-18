@@ -30,14 +30,69 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 
 """
 class Solution:
+    """
+    L0 → L1 → L2 → → → → Ln - 2 → Ln - 1 → Ln
+
+    - Use slow, fast to find the middle
+    - reverse from middle to end
+    - merge
+    """
     def reorderList(self, head: Optional[ListNode]) -> None:
+        # find middle
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next 
+
+        # reverse
+        pre, cur = None, slow
+        while cur:
+            temp = cur.next
+            cur.next = prev
+            prev, cur = cur, temp 
+
+        # reorder
+        L1, L2 = head, prev 
+        cur, toggle = head, True 
+        while L1 and L2:
+            if toggle:
+                L1 = L1.next 
+                cur.next = L2 
+            else:
+                L2 = L2.next
+                cur.next = L1 
+            cur = cur.next 
+            toggle = not toggle
         
+        return head 
+
+
+"""
+Easy
+203. Remove Linked List Elements
+https://leetcode.com/problems/remove-linked-list-elements/
+"""
+
+class Solution:
+    def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
+        if not head or head.val == val:
+            return None
+        
+        prev, cur = head, head.next 
+        while cur:
+            if cur.val == val:
+                prev.next = cur.next 
+            prev, cur = cur, cur.next  
+        
+        return head
+
 """
 Medium
 0019-remove-nth-node-from-end-of-list
 """
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+
 
 """
 Medium Walmart
