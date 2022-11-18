@@ -4,30 +4,9 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reorderList(self, head: Optional[ListNode]) -> None:
-        """
-        Do not return anything, modify head in-place instead.
-        """
-        
-        # Find Middle
-        slow, fast = head, head.next 
-        while fast:
-            slow = slow.next 
-            fast = fast.next 
-            if fast:
-                fast = fast.next 
-            else:
-                break
-            
-        # Reverse
-        prev, cur = None, slow
-        while cur:
-            temp = cur.next 
-            cur.next = prev
-            prev, cur = cur, temp 
-            
-        # Reorder
-        cur, L1, L2, toggle = head, head, prev, True
+    def merge1(self, L1, L2):
+        cur = head = L1
+        toggle = True
         while cur:
             if toggle:
                 L1 = L1.next 
@@ -37,6 +16,31 @@ class Solution:
                 cur.next = L1
             cur = cur.next 
             toggle = not toggle
+
+    def merge2(self, L1, L2):
+        while L1 and L2:
+            temp1, temp2 = L1.next, L2.next
+            L1.next = L2
+            L2.next = temp1            
+            L1, L2 = temp1, temp2        
+    
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        # Find Middle
+        slow, fast = head, head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next 
             
-        return head
+        # Reverse
+        prev, cur = None, slow
+        while cur:
+            temp = cur.next 
+            cur.next = prev
+            prev, cur = cur, temp 
+            
+        # Reorder
+        """
+        Do not return anything, modify head in-place instead.
+        """
+        self.merge2(head, prev)
                 
