@@ -224,9 +224,6 @@ class Solution:
 
         return dummy.next 
 
-
-
-
 """
 Medium
 146. LRU Cache
